@@ -1,0 +1,657 @@
+{
+	"suggestions": [
+		{
+			"term": "black t-shirt",
+			"url": "/search?query=black+t-shirt"
+		},
+		{
+			"term": "red bra",
+			"url": "/search?query=red+bra"
+		},
+		{
+			"term": "blue dress",
+			"url": "/search?query=blue+dress"
+		},
+		{
+			"term": "green jacket",
+			"url": "/search?query=green+jacket"
+		},
+		{
+			"term": "white sneakers",
+			"url": "/search?query=white+sneakers"
+		},
+		{
+			"term": "black formalwear",
+			"url": "/search?query=black+formalwear"
+		},
+		{
+			"term": "red loungewear",
+			"url": "/search?query=red+loungewear"
+		},
+		{
+			"term": "blue cardigan",
+			"url": "/search?query=blue+cardigan"
+		},
+		{
+			"term": "green blazer",
+			"url": "/search?query=green+blazer"
+		},
+		{
+			"term": "white blouse",
+			"url": "/search?query=white+blouse"
+		},
+		{
+			"term": "grey hoodie",
+			"url": "/search?query=grey+hoodie"
+		},
+		{
+			"term": "pink leggings",
+			"url": "/search?query=pink+leggings"
+		},
+		{
+			"term": "yellow scarf",
+			"url": "/search?query=yellow+scarf"
+		},
+		{
+			"term": "purple shoes",
+			"url": "/search?query=purple+shoes"
+		},
+		{
+			"term": "brown boots",
+			"url": "/search?query=brown+boots"
+		},
+		{
+			"term": "striped shirt",
+			"url": "/search?query=stripes+shirt"
+		},
+		{
+			"term": "floral dress",
+			"url": "/search?query=floral+dress"
+		},
+		{
+			"term": "denim shorts",
+			"url": "/search?query=denim+shorts"
+		},
+		{
+			"term": "pleated skirt",
+			"url": "/search?query=pleated+skirt"
+		},
+		{
+			"term": "suede jacket",
+			"url": "/search?query=suede+jacket"
+		},
+		{
+			"term": "chambray shirt",
+			"url": "/search?query=chambray+shirt"
+		},
+		{
+			"term": "leather pants",
+			"url": "/search?query=leather+pants"
+		},
+		{
+			"term": "casual blazer",
+			"url": "/search?query=casual+blazer"
+		},
+		{
+			"term": "sports bra",
+			"url": "/search?query=sports+bra"
+		},
+		{
+			"term": "maxi skirt",
+			"url": "/search?query=maxi+skirt"
+		},
+		{
+			"term": "wool hat",
+			"url": "/search?query=wool+hat"
+		}
+	],
+	"collections": [
+		{
+			"id": 0,
+			"title": "Tops",
+			"url": "/collections/tops"
+		},
+		{
+			"id": 1,
+			"title": "Dresses",
+			"url": "/collections/dresses"
+		},
+		{
+			"id": 2,
+			"title": "Outerwear",
+			"url": "/collections/outerwear"
+		},
+		{
+			"id": 3,
+			"title": "Intimates",
+			"url": "/collections/intimates"
+		},
+		{
+			"id": 4,
+			"title": "Swimwear",
+			"url": "/collections/swimwear"
+		},
+		{
+			"id": 5,
+			"title": "Activewear",
+			"url": "/collections/activewear"
+		},
+		{
+			"id": 6,
+			"title": "Bottoms",
+			"url": "/collections/bottoms"
+		},
+		{
+			"id": 7,
+			"title": "Accessories",
+			"url": "/collections/accessories"
+		},
+		{
+			"id": 8,
+			"title": "Shoes",
+			"url": "/collections/shoes"
+		},
+		{
+			"id": 9,
+			"title": "Sleepwear",
+			"url": "/collections/sleepwear"
+		},
+		{
+			"id": 10,
+			"title": "Formalwear",
+			"url": "/collections/formalwear"
+		},
+		{
+			"id": 11,
+			"title": "Casualwear",
+			"url": "/collections/casualwear"
+		},
+		{
+			"id": 12,
+			"title": "Sportswear",
+			"url": "/collections/sportswear"
+		},
+		{
+			"id": 13,
+			"title": "Loungewear",
+			"url": "/collections/loungewear"
+		},
+		{
+			"id": 14,
+			"title": "Workwear",
+			"url": "/collections/workwear"
+		},
+		{
+			"id": 15,
+			"title": "Suits",
+			"url": "/collections/suits"
+		},
+		{
+			"id": 16,
+			"title": "Denim",
+			"url": "/collections/denim"
+		},
+		{
+			"id": 17,
+			"title": "Sweaters",
+			"url": "/collections/sweaters"
+		},
+		{
+			"id": 18,
+			"title": "Skirts",
+			"url": "/collections/skirts"
+		},
+		{
+			"id": 19,
+			"title": "Jumpsuits",
+			"url": "/collections/jumpsuits"
+		},
+		{
+			"id": 20,
+			"title": "Overalls",
+			"url": "/collections/overalls"
+		}
+	],
+	"products": [
+		{
+			"id": 0,
+			"title": "Red Cotton Bodycon Long Top",
+			"url": "/products/0",
+			"brand": "Nike",
+			"price": 45,
+			"image": "/images/products/0.jpg"
+		},
+		{
+			"id": 1,
+			"title": "Blue Silk Maxi Dress",
+			"url": "/products/1",
+			"brand": "Gucci",
+			"price": 120,
+			"image": "/images/products/1.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Green Wool Bomber Jacket",
+			"url": "/products/2",
+			"brand": "Prada",
+			"price": 150,
+			"image": "/images/products/2.jpg"
+		},
+		{
+			"id": 3,
+			"title": "Black Polyester Jogger Pants",
+			"url": "/products/3",
+			"brand": "Balenciaga",
+			"price": 75,
+			"image": "/images/products/3.jpg"
+		},
+		{
+			"id": 4,
+			"title": "White Denim Jacket",
+			"url": "/products/4",
+			"brand": "Next",
+			"price": 60,
+			"image": "/images/products/4.jpg"
+		},
+		{
+			"id": 5,
+			"title": "Yellow Chiffon Shift Dress",
+			"url": "/products/5",
+			"brand": "Boss",
+			"price": 85,
+			"image": "/images/products/5.jpg"
+		},
+		{
+			"id": 6,
+			"title": "Pink Lace Bralette",
+			"url": "/products/6",
+			"brand": "Hugo",
+			"price": 30,
+			"image": "/images/products/6.jpg"
+		},
+		{
+			"id": 7,
+			"title": "Purple Off Shoulder Top",
+			"url": "/products/7",
+			"brand": "Under Armour",
+			"price": 40,
+			"image": "/images/products/7.jpg"
+		},
+		{
+			"id": 8,
+			"title": "Orange Sweater Dress",
+			"url": "/products/8",
+			"brand": "Louis Vuitton",
+			"price": 140,
+			"image": "/images/products/8.jpg"
+		},
+		{
+			"id": 9,
+			"title": "Gray Cardigan",
+			"url": "/products/9",
+			"brand": "Nike",
+			"price": 50,
+			"image": "/images/products/9.jpg"
+		},
+		{
+			"id": 10,
+			"title": "Brown Peplum Blouse",
+			"url": "/products/10",
+			"brand": "Gucci",
+			"price": 70,
+			"image": "/images/products/10.jpg"
+		},
+		{
+			"id": 11,
+			"title": "Beige Tank Top",
+			"url": "/products/11",
+			"brand": "Prada",
+			"price": 25,
+			"image": "/images/products/11.jpg"
+		},
+		{
+			"id": 12,
+			"title": "Navy Cargo Pants",
+			"url": "/products/12",
+			"brand": "Balenciaga",
+			"price": 85,
+			"image": "/images/products/12.jpg"
+		},
+		{
+			"id": 13,
+			"title": "Teal Maxi Dress",
+			"url": "/products/13",
+			"brand": "Next",
+			"price": 130,
+			"image": "/images/products/13.jpg"
+		},
+		{
+			"id": 14,
+			"title": "Maroon Jogger Pants",
+			"url": "/products/14",
+			"brand": "Boss",
+			"price": 55,
+			"image": "/images/products/14.jpg"
+		},
+		{
+			"id": 15,
+			"title": "Red Velvet Blazer",
+			"url": "/products/15",
+			"brand": "Hugo",
+			"price": 100,
+			"image": "/images/products/15.jpg"
+		},
+		{
+			"id": 16,
+			"title": "Black Puffer Jacket",
+			"url": "/products/16",
+			"brand": "Under Armour",
+			"price": 160,
+			"image": "/images/products/16.jpg"
+		},
+		{
+			"id": 17,
+			"title": "White Jumpsuit",
+			"url": "/products/17",
+			"brand": "Louis Vuitton",
+			"price": 150,
+			"image": "/images/products/17.jpg"
+		},
+		{
+			"id": 18,
+			"title": "Green V-Neck Sweater",
+			"url": "/products/18",
+			"brand": "Nike",
+			"price": 70,
+			"image": "/images/products/18.jpg"
+		},
+		{
+			"id": 19,
+			"title": "Blue Leather Skirt",
+			"url": "/products/19",
+			"brand": "Gucci",
+			"price": 85,
+			"image": "/images/products/19.jpg"
+		},
+		{
+			"id": 20,
+			"title": "Pink Printed Leggings",
+			"url": "/products/20",
+			"brand": "Prada",
+			"price": 40,
+			"image": "/images/products/20.jpg"
+		},
+		{
+			"id": 21,
+			"title": "Yellow Wool Hat",
+			"url": "/products/21",
+			"brand": "Balenciaga",
+			"price": 45,
+			"image": "/images/products/21.jpg"
+		},
+		{
+			"id": 22,
+			"title": "Purple Silk Blouse",
+			"url": "/products/22",
+			"brand": "Next",
+			"price": 65,
+			"image": "/images/products/22.jpg"
+		},
+		{
+			"id": 23,
+			"title": "Gray Printed Dress",
+			"url": "/products/23",
+			"brand": "Boss",
+			"price": 75,
+			"image": "/images/products/23.jpg"
+		},
+		{
+			"id": 24,
+			"title": "Black Leather Jacket",
+			"url": "/products/24",
+			"brand": "Hugo",
+			"price": 200,
+			"image": "/images/products/24.jpg"
+		},
+		{
+			"id": 25,
+			"title": "Red High-Waisted Skirt",
+			"url": "/products/25",
+			"brand": "Under Armour",
+			"price": 80,
+			"image": "/images/products/25.jpg"
+		},
+		{
+			"id": 26,
+			"title": "Green Polo Shirt",
+			"url": "/products/26",
+			"brand": "Louis Vuitton",
+			"price": 35,
+			"image": "/images/products/26.jpg"
+		},
+		{
+			"id": 27,
+			"title": "Blue Wide-Leg Pants",
+			"url": "/products/27",
+			"brand": "Nike",
+			"price": 70,
+			"image": "/images/products/27.jpg"
+		},
+		{
+			"id": 28,
+			"title": "Purple Maxi Skirt",
+			"url": "/products/28",
+			"brand": "Gucci",
+			"price": 55,
+			"image": "/images/products/28.jpg"
+		},
+		{
+			"id": 29,
+			"title": "White V-Neck Top",
+			"url": "/products/29",
+			"brand": "Prada",
+			"price": 40,
+			"image": "/images/products/29.jpg"
+		},
+		{
+			"id": 30,
+			"title": "Gray Wool Sweater",
+			"url": "/products/30",
+			"brand": "Balenciaga",
+			"price": 60,
+			"image": "/images/products/30.jpg"
+		},
+		{
+			"id": 31,
+			"title": "Beige Knit Dress",
+			"url": "/products/31",
+			"brand": "Next",
+			"price": 90,
+			"image": "/images/products/31.jpg"
+		},
+		{
+			"id": 32,
+			"title": "Black Printed Leggings",
+			"url": "/products/32",
+			"brand": "Boss",
+			"price": 45,
+			"image": "/images/products/32.jpg"
+		},
+		{
+			"id": 33,
+			"title": "Red Short-Sleeve Shirt",
+			"url": "/products/33",
+			"brand": "Hugo",
+			"price": 30,
+			"image": "/images/products/33.jpg"
+		},
+		{
+			"id": 34,
+			"title": "Green Denim Skirt",
+			"url": "/products/34",
+			"brand": "Under Armour",
+			"price": 55,
+			"image": "/images/products/34.jpg"
+		},
+		{
+			"id": 35,
+			"title": "Yellow Wool Coat",
+			"url": "/products/35",
+			"brand": "Louis Vuitton",
+			"price": 130,
+			"image": "/images/products/35.jpg"
+		},
+		{
+			"id": 36,
+			"title": "Pink Cashmere Sweater",
+			"url": "/products/36",
+			"brand": "Nike",
+			"price": 120,
+			"image": "/images/products/36.jpg"
+		},
+		{
+			"id": 37,
+			"title": "Blue Yoga Pants",
+			"url": "/products/37",
+			"brand": "Gucci",
+			"price": 50,
+			"image": "/images/products/37.jpg"
+		},
+		{
+			"id": 38,
+			"title": "Black Leather Skirt",
+			"url": "/products/38",
+			"brand": "Prada",
+			"price": 90,
+			"image": "/images/products/38.jpg"
+		},
+		{
+			"id": 39,
+			"title": "Red Silk Blouse",
+			"url": "/products/39",
+			"brand": "Balenciaga",
+			"price": 70,
+			"image": "/images/products/39.jpg"
+		},
+		{
+			"id": 40,
+			"title": "White Long-Sleeve Dress",
+			"url": "/products/40",
+			"brand": "Next",
+			"price": 100,
+			"image": "/images/products/40.jpg"
+		},
+		{
+			"id": 41,
+			"title": "Gray Wool Pants",
+			"url": "/products/41",
+			"brand": "Boss",
+			"price": 65,
+			"image": "/images/products/41.jpg"
+		},
+		{
+			"id": 42,
+			"title": "Beige Jumpsuit",
+			"url": "/products/42",
+			"brand": "Hugo",
+			"price": 110,
+			"image": "/images/products/42.jpg"
+		},
+		{
+			"id": 43,
+			"title": "Blue Leather Boots",
+			"url": "/products/43",
+			"brand": "Under Armour",
+			"price": 150,
+			"image": "/images/products/43.jpg"
+		},
+		{
+			"id": 44,
+			"title": "Black Wool Scarf",
+			"url": "/products/44",
+			"brand": "Louis Vuitton",
+			"price": 40,
+			"image": "/images/products/44.jpg"
+		},
+		{
+			"id": 45,
+			"title": "Red Wool Hat",
+			"url": "/products/45",
+			"brand": "Nike",
+			"price": 25,
+			"image": "/images/products/45.jpg"
+		},
+		{
+			"id": 46,
+			"title": "White Linen Shirt",
+			"url": "/products/46",
+			"brand": "Gucci",
+			"price": 55,
+			"image": "/images/products/46.jpg"
+		},
+		{
+			"id": 47,
+			"title": "Pink Maxi Dress",
+			"url": "/products/47",
+			"brand": "Prada",
+			"price": 75,
+			"image": "/images/products/47.jpg"
+		},
+		{
+			"id": 48,
+			"title": "Gray Sweatpants",
+			"url": "/products/48",
+			"brand": "Balenciaga",
+			"price": 50,
+			"image": "/images/products/48.jpg"
+		},
+		{
+			"id": 49,
+			"title": "Green Suede Jacket",
+			"url": "/products/49",
+			"brand": "Next",
+			"price": 120,
+			"image": "/images/products/49.jpg"
+		},
+		{
+			"id": 50,
+			"title": "Beige Wool Skirt",
+			"url": "/products/50",
+			"brand": "Boss",
+			"price": 80,
+			"image": "/images/products/50.jpg"
+		},
+		{
+			"id": 51,
+			"title": "Blue Silk Scarf",
+			"url": "/products/51",
+			"brand": "Hugo",
+			"price": 40,
+			"image": "/images/products/51.jpg"
+		},
+		{
+			"id": 52,
+			"title": "Red Leather Boots",
+			"url": "/products/52",
+			"brand": "Under Armour",
+			"price": 100,
+			"image": "/images/products/52.jpg"
+		},
+		{
+			"id": 53,
+			"title": "White Long Cardigan",
+			"url": "/products/53",
+			"brand": "Louis Vuitton",
+			"price": 85,
+			"image": "/images/products/53.jpg"
+		},
+		{
+			"id": 54,
+			"title": "Black Wool Pants",
+			"url": "/products/54",
+			"brand": "Nike",
+			"price": 65,
+			"image": "/images/products/54.jpg"
+		}
+	]
+}
