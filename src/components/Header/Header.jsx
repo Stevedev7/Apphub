@@ -3,6 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import './Header.css'
 import SearchBar from '../SearchBar'
 import { useEffect, useState } from 'react'
+import Suggestion from '../Suggestion'
 
 const Header = () => {
 	const [term, setTerm] = useState('');
@@ -10,6 +11,13 @@ const Header = () => {
 	const theme = useTheme();
 	const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 	const [store, setStore] = useState({});
+	const [results, setResults] = useState({});
+
+	const matchProperties = {
+		suggestions: "term",
+		collections: "title",
+		products: "title"
+	}
 
 	const toggleDrawer = (open) => (event) => {
 		if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -57,9 +65,9 @@ const Header = () => {
 						<MenuIcon className='menu-icon' />
 					</IconButton>
 				)}
-				<Typography variant="h6" component="div" className="brand">
+				<h1 className="brand">
 					Apphub Question 3
-				</Typography>
+				</h1>
 				{!isMobile && (
 					<Box className="links">
 						<a href="#" className="link">Home</a>
@@ -67,7 +75,23 @@ const Header = () => {
 						<a href="#" className="link">Shoes</a>
 					</Box>
 				)}
-				<SearchBar text={term} setText={setTerm} store={store} />
+				<SearchBar
+					text={term}
+					setText={setTerm}
+					store={store}
+					matchProperties={matchProperties}
+					results={results}
+					setResults={setResults}
+				>
+					<div>
+						<Suggestion
+							searchterm={term}
+							limit={2}
+							property="term"
+							suggestions={results.suggestions}
+						/>
+					</div>
+				</SearchBar>
 				<Drawer className='drawer' anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
 					<List>
 						{['Home', 'Tops', 'Shoes'].map((text) => (

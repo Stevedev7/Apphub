@@ -1,0 +1,12 @@
+.suggestion {
+	list-style: none;
+	padding: 2px 0px 0px 5px;
+	color: #3f3f3f;
+	cursor: pointer
+}
+
+.suggestion:hover {
+	background-color: #f4f7f4;
+	color: #3f3f3fa4;
+	cursor: pointer;
+}

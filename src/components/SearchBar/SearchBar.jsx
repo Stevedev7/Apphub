@@ -5,9 +5,9 @@ import { useState } from 'react'
 import './SearchBar.css'
 import Results from './Results'
 
-const SearchBar = ({ text, setText, store }) => {
-	const [isOpen, setIsOpen] = useState(false)
-	const [showResults, setShowResults] = useState(false)
+const SearchBar = ({ text, setText, store, matchProperties, results, setResults, children }) => {
+	const [isOpen, setIsOpen] = useState(false);
+	const [showResults, setShowResults] = useState(false);
 
 	const onChange = (e) => {
 		setText(e.target.value);
@@ -75,7 +75,15 @@ const SearchBar = ({ text, setText, store }) => {
 								width: 'calc(100% + 12em)'
 							}}
 						>
-							<Results store={store} searchTerm={text} />
+							<Results
+								store={store}
+								searchTerm={text}
+								matchProperties={matchProperties}
+								results={results}
+								setResults={setResults}
+							>
+								{children}
+							</Results>
 						</Paper>
 					)}
 				</>
