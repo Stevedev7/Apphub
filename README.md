@@ -4,8 +4,9 @@ This project implements an auto-suggestion feature using React.
 
 ## Prerequisites
 
-- Node.js (v14 or later)
-- npm (v6 or later)
+- Node.js
+- npm
+- npx
 
 ## Getting Started
 
@@ -14,12 +15,16 @@ This project implements an auto-suggestion feature using React.
    npm install
    ```
 
-2. Run the development server:
+2. Run mock API with generated data:
+   ```bash
+	 npx json-server --port 4000 db.json
+	 ```
+3. Run the development server:
    ```
    npm run dev
    ```
 
-3. Open your browser and navigate to `http://localhost:3000` to view the application.
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
 ## Usage
 
