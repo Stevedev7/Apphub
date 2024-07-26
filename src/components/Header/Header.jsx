@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 import Suggestion from '../Suggestion'
 import Collection from '../Collection'
 import Results from '../Results'
+import Product from '../Product'
 
 const Header = () => {
 	const [term, setTerm] = useState('');
@@ -106,10 +107,14 @@ const Header = () => {
 										suggestions={results.suggestions}
 									/>
 									<Collection
-										searchterm={term}
 										limit={4}
 										property={"title"}
 										collections={results.collections}
+									/>
+									<Product
+										limit={3}
+										property={"title"}
+										products={results.products}
 									/>
 								</div>
 							</Results>

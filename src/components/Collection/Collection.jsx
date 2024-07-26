@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Collection.css'
-const Collection = ({ collections, limit, property, searchterm }) => {
+const Collection = ({ collections, limit, property }) => {
 	const [limited, setLimited] = useState([]);
 
 	const [show, setShow] = useState(true);
@@ -24,7 +24,7 @@ const Collection = ({ collections, limit, property, searchterm }) => {
 		<div>
 			<h3 className='result-category-header' onClick={toggleShow}>Collections</h3>
 			<ul style={style}>
-				{limited.map(suggestion => <li className='suggestion' key={suggestion.obj.id}>{suggestion.obj[property]}</li>)}
+				{limited.map(collection => <li className='collection' key={collection.obj.id}>{collection.obj[property]}</li>)}
 			</ul>
 		</div>
 	)
