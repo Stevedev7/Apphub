@@ -1,0 +1,9 @@
+.search-icon {
+	cursor: pointer;
+	height: 4px;
+}
+
+.cancel-icon {
+	max-width: 15px;
+	color: #c6c6d1;
+}
