@@ -3,15 +3,12 @@ import SearchIcon from '@mui/icons-material/Search';
 import CancelIcon from '@mui/icons-material/Cancel';
 import { useState } from 'react'
 import './SearchBar.css'
-import Results from './Results'
 
-const SearchBar = ({ text, setText, store, matchProperties, results, setResults, children }) => {
+const SearchBar = ({ text, setText }) => {
 	const [isOpen, setIsOpen] = useState(false);
-	const [showResults, setShowResults] = useState(false);
 
 	const onChange = (e) => {
 		setText(e.target.value);
-		setShowResults(e.target.value.length > 0);
 	}
 
 	const openSearchBar = () => {
@@ -21,7 +18,6 @@ const SearchBar = ({ text, setText, store, matchProperties, results, setResults,
 	const closeSearchBar = () => {
 		setText('');
 		setIsOpen(false);
-		setShowResults(false);
 	}
 
 	return (
@@ -63,29 +59,7 @@ const SearchBar = ({ text, setText, store, matchProperties, results, setResults,
 							}}
 						/>
 					</Grow>
-					{showResults && (
-						<Paper
-							elevation={3}
-							sx={{
-								position: 'absolute',
-								top: '100%',
-								left: '-12em',
-								zIndex: 1,
-								marginTop: '4px',
-								width: 'calc(100% + 12em)'
-							}}
-						>
-							<Results
-								store={store}
-								searchTerm={text}
-								matchProperties={matchProperties}
-								results={results}
-								setResults={setResults}
-							>
-								{children}
-							</Results>
-						</Paper>
-					)}
+
 				</>
 			) : (
 				<IconButton onClick={openSearchBar}>

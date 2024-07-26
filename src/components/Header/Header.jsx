@@ -1,10 +1,11 @@
-import { AppBar, Box, Toolbar, IconButton, Drawer, List, ListItem, useMediaQuery, useTheme } from '@mui/material'
+import { AppBar, Box, Toolbar, IconButton, Drawer, List, ListItem, useMediaQuery, useTheme, Paper } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import './Header.css'
 import SearchBar from '../SearchBar'
 import { useEffect, useState } from 'react'
 import Suggestion from '../Suggestion'
 import Collection from '../Collection'
+import Results from '../Results'
 
 const Header = () => {
 	const [term, setTerm] = useState('');
@@ -76,29 +77,45 @@ const Header = () => {
 						<a href="#" className="link">Shoes</a>
 					</Box>
 				)}
-				<SearchBar
-					text={term}
-					setText={setTerm}
-					store={store}
-					matchProperties={matchProperties}
-					results={results}
-					setResults={setResults}
-				>
-					<div>
-						<Suggestion
-							searchterm={term}
-							limit={4}
-							property="term"
-							suggestions={results.suggestions}
-						/>
-						<Collection
-							searchterm={term}
-							limit={4}
-							property={"title"}
-							collections={results.collections}
-						/>
-					</div>
-				</SearchBar>
+				<div className="search-container">
+					<SearchBar
+						text={term}
+						setText={setTerm}
+						store={store}
+						matchProperties={matchProperties}
+						results={results}
+						setResults={setResults}
+					/>
+					{term !== "" && (
+						<Paper
+							elevation={3}
+							className="search-results-paper"
+						>
+							<Results
+								store={store}
+								searchTerm={term}
+								matchProperties={matchProperties}
+								results={results}
+								setResults={setResults}
+							>
+								<div>
+									<Suggestion
+										searchterm={term}
+										limit={4}
+										property="term"
+										suggestions={results.suggestions}
+									/>
+									<Collection
+										searchterm={term}
+										limit={4}
+										property={"title"}
+										collections={results.collections}
+									/>
+								</div>
+							</Results>
+						</Paper>
+					)}
+				</div>
 				<Drawer className='drawer' anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
 					<List>
 						{['Home', 'Tops', 'Shoes'].map((text) => (

@@ -30,3 +30,13 @@
 	background-color: #e2dcdc;
 	border-radius: 4px;
 }
+
+.search-results-paper {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	transform: translateX(-36em);
+	z-index: 1;
+	margin-top: 4px;
+	width: 35em;
+}
