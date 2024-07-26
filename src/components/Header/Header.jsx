@@ -1,9 +1,10 @@
-import { AppBar, Box, Toolbar, Typography, IconButton, Drawer, List, ListItem, ListItemText, useMediaQuery, useTheme } from '@mui/material'
+import { AppBar, Box, Toolbar, IconButton, Drawer, List, ListItem, useMediaQuery, useTheme } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import './Header.css'
 import SearchBar from '../SearchBar'
 import { useEffect, useState } from 'react'
 import Suggestion from '../Suggestion'
+import Collection from '../Collection'
 
 const Header = () => {
 	const [term, setTerm] = useState('');
@@ -86,9 +87,15 @@ const Header = () => {
 					<div>
 						<Suggestion
 							searchterm={term}
-							limit={2}
+							limit={4}
 							property="term"
 							suggestions={results.suggestions}
+						/>
+						<Collection
+							searchterm={term}
+							limit={4}
+							property={"title"}
+							collections={results.collections}
 						/>
 					</div>
 				</SearchBar>
